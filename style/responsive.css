@@ -1,0 +1,33 @@
+@media screen and (max-width: 991px) {
+  .calc {
+    width: 90%;
+  }
+  .modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calc-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .calc-mark {
+    height: 500px;
+    margin-top: 40px;
+  }
+  .mark-row {
+    margin: 70px 10px;
+  }
+  .calc-content {
+    width: 99%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

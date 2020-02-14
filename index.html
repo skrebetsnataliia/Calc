@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+<body>
+    <main>
+        <button class="btn-open">Calc</button>
+        <div class="modal">
+          <div class="calc">
+              <div class="calc-head">
+                  <h1>Simple Calc</h1>
+              </div>
+              <div class="calc-content">
+                <div class="calc-mark">
+                    <input type="checkbox" class="mark-row mark-row_one">
+                    <input type="checkbox" class="mark-row mark-row_two">
+                    <input type="checkbox" class="mark-row mark-row_three">
+                  </div>
+                  <div>
+                    <div class="calc-row row-one">
+                        <div class="calc-input">
+                            <input type="number" class="calc-row_input calc-row_one">
+                            <input type="number" class="calc-row_input calc-row_one">
+                            <input type="number" class="calc-row_input calc-row_one">
+                         </div>
+                         <div class="calc-result results-row_one">
+                         </div>
+                       </div>
+                       <div class="calc-row row-two">
+                        <div class="calc-input">
+                            <input type="number" class="calc-row_input calc-row_two">
+                            <input type="number" class="calc-row_input calc-row_two">
+                            <input type="number" class="calc-row_input calc-row_two">
+                         </div>
+                         <div class="calc-result results-row_two">
+                         </div>
+                       </div>
+                       <div class="calc-row row-three">
+                        <div class="calc-input">
+                            <input type="number" class="calc-row_input calc-row_three">
+                            <input type="number" class="calc-row_input calc-row_three">
+                            <input type="number" class="calc-row_input calc-row_three">
+                         </div>
+                         <div class="calc-result results-row_three"> 
+                         </div>
+                       </div>
+                  </div>
+              </div>
+               <button class="modal-close">&times;</button>
+                <p class="calc-option_head">Choose box</p>
+                <div class="calc-option">
+                <div class="calc-option_add">
+                    <input type="radio" checked name="operation" value='1' class="calc-sum"> Sum
+                </div>
+                <div class="calc-option_mul">
+                    <input type="radio" name="operation" value='0' class="calc-mul">Multiply
+                </div>
+               </div>
+              </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
