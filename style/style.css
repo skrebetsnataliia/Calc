@@ -110,7 +110,7 @@
   border: 2px solid #4a7cdb;
   border-left: none;
   padding: 10px;
-  min-width: 75px;
+  width: 75px;
 }
 
 .calc-option {
@@ -172,5 +172,14 @@
 
 .bg-green {
   background: #38cd4f;
+}
+
+.results-row_one::before {
+  content: "Results \a";
+  text-decoration: underline;
+  color: #4a7cdb;
+  position: relative;
+  font-size: 26px;
+  bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */

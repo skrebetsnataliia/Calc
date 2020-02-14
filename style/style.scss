@@ -84,7 +84,7 @@
       border: 2px solid $blueColor;
       border-left: none;
       padding: 10px;
-      min-width: 75px;
+      width: 75px;
     }
 
     &-option{
@@ -126,6 +126,15 @@
   margin:25px 10px;
 }
 
-  .bg-green{
-    background:$greenColor;
-  }
+.bg-green{
+  background:$greenColor;
+}
+
+.results-row_one::before{
+  content:"Results \a";
+  text-decoration: underline;
+  color: $blueColor;
+  position: relative;
+  font-size: 26px;
+  bottom: 50px;
+}
